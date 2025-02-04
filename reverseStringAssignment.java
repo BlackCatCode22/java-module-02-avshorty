@@ -9,7 +9,7 @@ public class reverseStringAssignment {
         String userWord = scanned.nextLine();
         String reversed = new StringBuilder(userWord).reverse().toString();
         System.out.println("Your reverse word/sentecne is"+reversed);
-
+        scanner.close
 
     }
 }
